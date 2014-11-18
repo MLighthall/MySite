@@ -6,7 +6,6 @@ body {
     margin: 0px;
     padding: 0px;
 }
-
 html {
     width: 100%;
     height: 100%;
@@ -216,6 +215,241 @@ a:focus {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*      CSS for Service   */
+#header-service {
+    background-image: url(../img/pattern-blue.png);
+    width: 100%;
+    height:200px;
+}
+#header-service h5{
+    color: #e7e5e3;
+    font-size: 272px;
+    font-weight: lighter;
+}
+.service-heading {
+    font-size: 72px;
+    color: white;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+/*      Media Query ipad        */
+@media(max-width:767px) {
+    #header-service {
+        background-image: url(../img/pattern-blue.png);
+        width: 100%;
+        height:150px;
+    }
+    .navbar-custom .navbar-brand {
+        background-image: url('../img/nav-logo.svg');
+        background-repeat: no-repeat;
+        padding: 3px;
+        padding: 7px 0px 7px 0px;
+    }
+}
+/*      Media Query iPhone 6 plus       */
+@media(max-width:414px) {
+    .service-heading {
+        font-size: 48px;
+        color: #e7e5e3;
+        font-weight: 700;
+        margin-top: 60px;
+    }
+}
+/*      Media Query iPhone 6    */
+@media(max-width:375px) {
+    .service-heading {
+        font-size: 48px;
+        color: #e7e5e3;
+        font-weight: 700;
+        margin-top: 60px;
+    }
+}
+/*      Media Query Galaxy      */
+@media(max-width:360px) {
+    .service-heading {
+        font-size: 48px;
+        color: #e7e5e3;
+        font-weight: 700;
+        margin-top: 60px;
+    }
+}
+/*      Media Query iPhone 5        */
+@media(max-width:320px) {
+    .service-heading {
+        font-size: 36px;
+        color: #e7e5e3;
+        font-weight: 700;
+        margin-top: 70px;
+    }
+}
+#service-info {
+    background-image: url(../img/pattern-white.png);
+    width: 100%;
+    height: auto;
+}
+#service-contact {
+    background-image: url(../img/pattern-blue.png);
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+#contact-service {
+    background-image: url(../img/pattern-gray.png);
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+.computer-pic {
+    margin-top: 50px;
+}
+#sub-services {
+    background: url(../img/pattern-gray.png);
+    width: 100%;
+    height: auto;
+}
+#sub-services {
+    color:#e7e5e3;
+}
+#sub-services span{
+    color:#327cc9;
+}
+.web-icon {
+    max-height: 207px;
+    max-width: 165px;    
+    padding: none;
+    margin: 0 auto;
+    margin-top: -20px;
+    opacity:.8;
+}
+.mini-title {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+#service-contact input[type="text"], textarea {
+
+  background-color: rgba(255,255,255,.2); 
+  height: 50px;
+  border: transparent;
+  border-left: 4px #fff solid;
+  border-radius: 0px;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
+#service-contact input[type="email"], textarea {
+
+  background-color: rgba(73,73,73,.8); 
+  height: 50px;
+  border: 1px solid #232323;
+  border-radius: 0px;
+  font-size: 20px;
+
+}
+#service-contact input[type="tel"], textarea {
+
+  background-color: rgba(73,73,73,.8); 
+  height: 50px;
+  border: 1px solid #232323;
+  border-radius: 0px;
+  font-size: 20px;
+
+}
+#service-contact textarea {
+  background-color: rgba(73,73,73,.8); 
+  height: 150px;
+  border: 1px solid #232323;
+  border-radius: 0px;
+  font-size: 20px;
+
+}
+#service-contact textarea:focus {
+  border: transparent;
+
+}
+#service-contact input {
+    color: #232323;
+    font-family: 'Raleway';
+
+}
+#message {
+    color: #3077c0;
+}
+#service-contact input:focus {
+    border: transparent;
+    background-color: rgba(255,255,255,.5);
+}
+
+select {
+    background-color: rgba(255,255,255,.2); 
+    height: 40px;
+    width: auto;
+    border: transparent;
+    font-family: 'Raleway';
+    margin-left: 5px;
+    color: #232323;
+}
+#intro { 
+    background: url(../img/surge.jpg) 50% 0 fixed; 
+    height: 400px;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+}
+.social-icons img{
+    height:32px;
+    width:32px;
+    margin-right: 10px;
+    margin-top:20px;
+}
+.social-icons img:hover{
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+    opacity: .6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*      CSS for Home      */
 .intro {
     display: table;
     width: 100%;
@@ -460,7 +694,6 @@ a:focus {
 #map {
     width: 100%;
     height: 200px;
-    margin-top: 100px;
 }
 
 @media(min-width:767px) {
@@ -475,7 +708,6 @@ a:focus {
 
     #map {
         height: 400px;
-        margin-top: 250px;
     }
 }
 
@@ -501,6 +733,12 @@ a:focus {
     border-radius: 0px;
     margin-top: 10px;
 }
+.btn-blue {
+    color: #fff;
+    background-color: #3077c0;;
+    border-radius: 0px;
+    margin-top: 10px;
+}
 .btn-drk {
     border: 2px solid #232323;
     color: #fff;
@@ -511,8 +749,11 @@ a:focus {
 .send-btn {
     border: 2px solid #232323;
     color: #fff;
-    background-color: #3077c0;
+    background-color: #232323;
     border-radius: 0px;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 .btn-default:hover,
 .btn-default:focus {
@@ -631,7 +872,7 @@ ul.banner-social-buttons {
 	margin-top: 20px;
 }
 big {
-	color: #3077c0;
+	color: #fff;
 	font-size: 40px;
 	font-weight: 700;
 }
