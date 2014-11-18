@@ -199,6 +199,15 @@ a:focus {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
+    .navbar-service {
+        padding: 10px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: #232323;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
 
     .top-nav-collapse {
         padding: 0;
@@ -257,7 +266,12 @@ a:focus {
     font-weight: 700;
     margin-top: 60px;
 }
-
+.service-heading-3 {
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+    margin-top: 60px;
+}
 /*      Media Query ipad        */
 @media(max-width:767px) {
     #header-service {
@@ -271,6 +285,18 @@ a:focus {
         padding: 3px;
         padding: 7px 0px 7px 0px;
     }
+    .service-heading {
+        font-size: 72px;
+        color: white;
+        font-weight: 700;
+        margin-top: 60px;
+    }
+    .service-heading-3 {
+        font-size: 48px;
+        color: white;
+        font-weight: 700;
+        margin-top: 60px;
+    }
 }
 /*      Media Query iPhone 6 plus       */
 @media(max-width:414px) {
@@ -279,6 +305,12 @@ a:focus {
         color: #e7e5e3;
         font-weight: 700;
         margin-top: 60px;
+    }
+    .service-heading-3 {
+        font-size: 24px;
+        color: white;
+        font-weight: 700;
+        margin-top: 70px;
     }
 }
 /*      Media Query iPhone 6    */
@@ -289,6 +321,12 @@ a:focus {
         font-weight: 700;
         margin-top: 60px;
     }
+    .service-heading-3 {
+        font-size: 22px;
+        color: white;
+        font-weight: 700;
+        margin-top: 75px;
+    }
 }
 /*      Media Query Galaxy      */
 @media(max-width:360px) {
@@ -298,6 +336,12 @@ a:focus {
         font-weight: 700;
         margin-top: 60px;
     }
+    .service-heading-3 {
+        font-size: 22px;
+        color: white;
+        font-weight: 700;
+        margin-top: 70px;
+    }
 }
 /*      Media Query iPhone 5        */
 @media(max-width:320px) {
@@ -306,6 +350,12 @@ a:focus {
         color: #e7e5e3;
         font-weight: 700;
         margin-top: 70px;
+    }
+    .service-heading-3 {
+        font-size: 28px;
+        color: white;
+        font-weight: 700;
+        margin-top: 58px;
     }
 }
 #service-info {
