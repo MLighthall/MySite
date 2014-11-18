@@ -3,8 +3,6 @@
 if(empty($_POST['business'])  		||
    empty($_POST['business-desp']) 		||
    empty($_POST['email'])	||
-]
-
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {
 	echo "No arguments Provided!";
